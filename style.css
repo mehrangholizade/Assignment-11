@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Android;
+    src: url(Android.ttf);
+}
 .container
 {
     width: 100%;
@@ -151,7 +154,7 @@
 #text
 {
     position: relative;
-    
+    font-family: "android";
     font-size: 30px;
     text-align: center;
     margin-top: 80px;
