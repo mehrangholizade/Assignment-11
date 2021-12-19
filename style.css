@@ -1,0 +1,162 @@
+
+.container
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.androidlogo
+{
+    width: 200px;
+}
+.head
+{
+    position: relative;
+    background-color: #a4ca39;
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.eyes
+{
+    position:relative;
+    display: flex;
+}
+.lefteye
+{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    left: 40px;
+    border-radius: 100%;
+}
+.righteye
+{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    left: 140px;
+    border-radius: 100%;
+}
+.antenna
+{
+    position: relative;
+    display: flex;
+}
+.leftantenna
+{
+    position: absolute;
+    background-color: #a4ca39;
+    width: 70px;
+    height: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transform: rotate(60deg);
+}
+.rightantenna
+{
+    position: absolute;
+    background-color: #a4ca39;
+    width: 70px;
+    height: 10px;
+    right: 0px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transform: rotate(120deg);
+}
+.body
+{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: #a4ca39;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hands
+{
+    position: relative;
+}
+.lefthand
+{
+    position:relative;
+    width: 170px;
+    height: 40px;
+    background-color: #a4ca39;
+    transform: rotate(90deg);
+    bottom: 168;
+    left: -54;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transform-origin: 15% 30%;
+}
+.righthand
+{
+    position: relative;
+    width: 170px;
+    height: 40px;
+    transform: rotate(90deg);
+    background-color: #a4ca39;
+    bottom: 177;
+    left: 200;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transform-origin:30% 15%; 
+    
+}
+.feet
+{
+    position: relative;
+    display: flex;
+}
+.leftfoot
+{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #a4ca39;
+    transform: rotate(90deg);
+    top:200px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.rightfoot
+{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color:#a4ca39;
+    transform: rotate(90deg);
+    top:200px;
+    right: 0px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#text
+{
+    position: relative;
+    
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: -40px;
+}
+  
+    
+

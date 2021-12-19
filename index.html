@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mehran Gholizadeh">
+        <meta name="description" content="Android logo with animation">
+        <meta name="keywords" content="androidlogo,html,css,js,webdesigning and  ...">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Android Logo</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="androidlogo">
+                <div class="head" id="head">
+                    <div class="eyes ">
+                        <div class="lefteye" id="left-eye"></div>
+                        <div class="righteye" id="right-eye"></div>
+                    </div>
+                    <div class="antenna">
+                        <div class="leftantenna"></div>
+                        <div class="rightantenna"></div>
+                    </div>
+                </div>
+                <div class="body" id="body">
+                    <div class="feet">
+                        <div class="leftFoot"></div>
+                        <div class="rightFoot"></div>
+                    </div>
+                </div>
+                <div class="hands">
+                    <div class="lefthand" id="left-hand"></div>
+                    <div class="righthand" id="right-hand"></div>
+                </div>
+                
+                <div id="text"><h1>ANDROID</h1></div>
+            </div>
+        </div>
+        <script>
+            var left_hand=document.getElementById("left-hand");
+            left_hand.onclick=function(){
+                left_hand.style.transform="rotate(240deg)";
+                left_hand.style.transition="3s";
+                setTimeout(function () {left_hand.style.transform = "rotate(90deg)" }, 3000)
+            }
+            var right_hand=document.getElementById("right-hand");
+            right_hand.onclick=function(){
+                right_hand.style.transform="rotate(-70deg)";
+                right_hand.style.transition="3s";
+                setTimeout(function () {right_hand.style.transform = "rotate(90deg)" }, 3000)
+            }
+            var whole_body=document.getElementById("body");
+            var left_eye=document.getElementById("left-eye");
+            var right_eye=document.getElementById("right-eye");
+            whole_body.onclick=function(){
+                left_eye.style.width="20px";
+                left_eye.style.height="5px";
+                left_eye.style.borderRadius="0px";
+                left_eye.style.top="60";
+                right_eye.style.width="20px";
+                right_eye.style.height="5px";
+                right_eye.style.borderRadius="0px";
+                right_eye.style.top="60";
+            }
+            var whole_head=document.getElementById("head");
+            whole_head.onclick=function(){
+                left_eye.style.width="20px";
+                left_eye.style.height="20px";
+                left_eye.style.borderRadius="100%";
+                right_eye.style.width="20px";
+                right_eye.style.height="20px";
+                right_eye.style.borderRadius="100%";
+            }
+        </script>
+    </body>
+</html>
